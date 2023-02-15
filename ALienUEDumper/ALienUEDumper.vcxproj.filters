@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameOffset">
+      <UniqueIdentifier>{c24536f9-203b-4812-8f6c-f9568b7a5de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{3591ad9f-27ec-4619-97d2-ceb5bb9d687c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsmCall">
+      <UniqueIdentifier>{d624a813-0bc4-48cb-8a6b-d179395b820d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameData">
+      <UniqueIdentifier>{1558d2a0-2a16-4894-b193-38a971130686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{9939b70c-84cf-4927-bd19-eab4260884fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core">
+      <UniqueIdentifier>{46ae6980-8ce0-4cc3-97bd-213783cf73e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\Containers">
+      <UniqueIdentifier>{f4c38db5-a85a-4502-a77f-c3950768ae33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\UObject">
+      <UniqueIdentifier>{2453a5d7-36c8-446c-a18e-410653b7a57c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ALienUEDumper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DumperDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="offset.cpp">
+      <Filter>GameOffset</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData\SDKMgr.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData\GameMgr.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Containers\Array.cpp">
+      <Filter>头文件\Core\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Containers\UnrealString.cpp">
+      <Filter>头文件\Core\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ALienUEDumper.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\ALienUEDumper.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ALienUEDumper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DumperDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.h">
+      <Filter>GameOffset</Filter>
+    </ClInclude>
+    <ClInclude Include="include\memory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData\SDKMgr.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData\GameMgr.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Containers\Array.h">
+      <Filter>头文件\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UObject\NameTypes.h">
+      <Filter>头文件\Core\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Containers\UnrealString.h">
+      <Filter>头文件\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ALienUEDumper.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="CallFunc.asm">
+      <Filter>AsmCall</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
